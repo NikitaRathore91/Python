@@ -1,7 +1,8 @@
-#collection of unordered items
-#each element in et must be unique and it is immutable    set on whole is mutable ie we can add remove things
-# we cannot store list and dictionary in set
-# we can store int,float,string,tuple in set
+# The items in a set are:
+# 1. Unordered → they don't follow any fixed position or index.
+# 2. Unique → no duplicate values allowed.
+# 3. Immutable elements → each item inside the set cannot change (so lists or dicts aren't allowed inside).
+# 4. Set itself is mutable → you can add or remove items from the set.
 
 collection = {1,2,3,4} # this is a set
 print(type(collection))
