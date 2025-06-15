@@ -1,4 +1,1 @@
-name = "Nikita "
-surname = "Rathore"
-print(name+surname)
-print(len(name),"and",len(surname))
+num = [3,4,5,6]
